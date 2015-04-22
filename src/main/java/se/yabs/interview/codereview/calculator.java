@@ -1,3 +1,4 @@
+package se.yabs.interview.codereview;
 
 public class calculator {
 

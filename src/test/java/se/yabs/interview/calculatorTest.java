@@ -1,13 +1,14 @@
+package se.yabs.interview;
+
 import junit.framework.TestCase;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import se.yabs.interview.codereview.calculator;
 
 public class calculatorTest extends TestCase {
 
     @Test
     public void testMultiply() {
-        int val = calculator.main(new String[] {"157", "*", "2"});
+        int val = calculator.main(new String[]{"157", "*", "2"});
         assertEquals(val, 314);
     }
 
