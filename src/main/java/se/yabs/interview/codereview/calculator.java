@@ -6,7 +6,7 @@ public class calculator {
 
         int VALS = 0;
         int VALA = Integer.parseInt(args[1]);
-        int VALB = Integer.parseInt(args[2]);
+        int VALB = Integer.valueOf(args[2]);
 
         String _op = args[3];
 
@@ -22,6 +22,7 @@ public class calculator {
             break;
         }
 
+        /* return sum */
         return VALS;
     }
 }
